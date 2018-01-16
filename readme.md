@@ -16,7 +16,7 @@ Nice tools for developing a PID controller.
 # Usage
 
 1. Upload arduino/arduino.ino to your Arduino board.
-2. Unzip electron-release/electron-arduino-win32-x64.zip and run electron-arduino.exe
+2. Unzip electron-arduino-win32-x64.zip ([Release](https://github.com/vincent-yao27/electron-arduino/releases)) and run electron-arduino.exe
 3. Write your Arduino code and enjoy.
 
 # License
