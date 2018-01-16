@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+
+#port {
+	display: flex;
+}
+
+#port * {
+	margin: 0 5px;
+}
+
+#port select {
+	flex: 1;
+}
+
+#params {
+	display: flex;
+	margin: 5px 0;
+}
+
+#params > * {
+	margin: 0 5px;
+}
+
+#params .item {
+	display: flex;
+	flex: 1;
+}
+
+#params input {
+	flex: 1;
+	width: 50px;
+	margin-left: 5px;
+}
+
+#graphs, .graph {
+	display: flex;
+	flex: 1;
+}
+
+.graph {
+	flex-direction: column;
+	margin: 3px;
+	padding: 3px;
+	border: 1px solid #888;
+}
+
+#graphs canvas {
+	flex: 1;
+	margin-top: 2px;
+	width: 100%;
+	border: 1px solid #888;
+}

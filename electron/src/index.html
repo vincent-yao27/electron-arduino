@@ -1,0 +1,88 @@
+<!--
+	electron-arduino
+	index.html
+
+	@author		Vincent Yao (姚裕欣)
+	@author		vincent_yao27@163.com
+	@version	1.0.0
+
+	Copyright © 2017 Vincent Yao (姚裕欣)
+
+	Released under GPL-3.0 license
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Electron Arduino</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="port">
+		Baud: <input type="number" id="baud" value="250000">
+		Port: 
+		<select>
+			<option value="">Disconnection</option>
+		</select>
+		<button id="refresh-port">Refresh</button>
+	</div>
+	<div id="params">
+		Params: 
+		<span class="item">
+			0 <input type="number">
+		</span>
+		<span class="item">
+			1 <input type="number">
+		</span>
+		<span class="item">
+			2 <input type="number">
+		</span>
+		<span class="item">
+			3 <input type="number">
+		</span>
+		<span class="item">
+			4 <input type="number">
+		</span>
+		<span class="item">
+			5 <input type="number">
+		</span>
+		<span class="item">
+			6 <input type="number">
+		</span>
+		<span class="item">
+			7 <input type="number">
+		</span>
+		<button id="send-params">Send Params</button>
+	</div>
+	<div id="graphs">
+		<div class="graph">
+			<div>
+				Type:
+				<select>
+					<option value="plain">Plain</option>
+					<option value="advanced">Advanced</option>
+				</select>
+			</div>
+			<canvas></canvas>
+		</div>
+		<div class="graph">
+			<div>
+				Type:
+				<select>
+					<option value="plain">Plain</option>
+					<option value="advanced">Advanced</option>
+				</select>
+			</div>
+			<canvas></canvas>
+		</div>
+	</div>
+</body>
+<script src="renderer.js"></script>
+
+</html>

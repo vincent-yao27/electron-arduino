@@ -1,0 +1,25 @@
+{
+  "name": "async-utility",
+  "version": "0.3.0",
+  "description": "Utilities for async-await programming",
+  "main": "async-utility.js",
+  "scripts": {
+    "test": "node async-utility.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincent-yao27/async-utility.git"
+  },
+  "keywords": [
+    "promise",
+    "utility",
+    "async",
+    "await"
+  ],
+  "author": "vincent-yao27",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vincent-yao27/async-utility/issues"
+  },
+  "homepage": "https://github.com/vincent-yao27/async-utility#readme"
+}
