@@ -16,7 +16,7 @@ Nice tools for developing a PID controller.
 # Usage
 
 1. Upload arduino/arduino.ino to your Arduino board.
-2. Unzip electron/electron-arduino-win32-x64.zip and run electron-arduino.exe
+2. Unzip electron-release/electron-arduino-win32-x64.zip and run electron-arduino.exe
 3. Select the serial port that your Arduino connected to. Notice the baud setting.
 4. Have fun and write your Arduino code.
 
